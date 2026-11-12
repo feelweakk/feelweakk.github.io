@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>fykkkke — Telegram-боты и сайты</title>
+    <meta name="description" content="Разработка Telegram-ботов и сайтов для бизнеса: онлайн-запись, приём заявок, лендинги. Лука Петрушин (fykkkke).">
+    <meta property="og:title" content="fykkkke — Telegram-боты и сайты">
+    <meta property="og:description" content="Боты для записи клиентов, приёма заявок и автоматизации. Лендинги и сайты-визитки.">
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' rx='24' fill='%237c5cff'/><text x='50' y='70' font-size='60' text-anchor='middle' fill='white' font-family='Arial' font-weight='bold'>f</text></svg>">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav class="container">
+            <a class="logo" href="#">fykkkke<span>.</span></a>
+            <ul class="menu">
+                <li><a href="#services">Услуги</a></li>
+                <li><a href="#works">Работы</a></li>
+                <li><a href="#process">Как работаю</a></li>
+            </ul>
+            <a class="btn btn-small" href="https://t.me/fykkkkke" target="_blank">Написать</a>
+        </nav>
+    </header>
+
+    <main>
+        <!-- ===== Главный экран ===== -->
+        <section class="hero container">
+            <span class="badge">🟢 Принимаю заказы</span>
+            <h1>Telegram-боты и сайты,<br>которые <span class="grad">приводят клиентов</span></h1>
+            <p class="lead">Делаю ботов для записи и приёма заявок, а также лендинги для малого бизнеса. Быстро, понятно и под ваши задачи.</p>
+            <div class="hero-actions">
+                <a class="btn" href="https://t.me/fykkkkke" target="_blank">Обсудить проект в Telegram</a>
+                <a class="btn btn-ghost" href="#works">Посмотреть работы</a>
+            </div>
+
+            <!-- Мини-демо: как выглядит бот -->
+            <div class="chat" aria-hidden="true">
+                <div class="chat-head"><div class="avatar">💈</div><div><b>Barbershop Bot</b><small>бот</small></div></div>
+                <div class="msg bot">Здравствуйте! 👋 Выберите услугу:</div>
+                <div class="chips"><span>Стрижка — 1500 ₽</span><span>Борода — 800 ₽</span></div>
+                <div class="msg user">Стрижка</div>
+                <div class="msg bot">Выберите время на пятницу:</div>
+                <div class="chips"><span>12:00</span><span>14:00</span><span>17:00</span></div>
+                <div class="msg bot">✅ Вы записаны! Ждём вас в пятницу в 14:00</div>
+            </div>
+        </section>
+
+        <!-- ===== Услуги ===== -->
+        <section id="services" class="container">
+            <h2>Услуги</h2>
+            <p class="section-lead">Цена зависит от задачи. Точную сумму назову после короткого обсуждения.</p>
+            <div class="grid">
+                <article class="card">
+                    <div class="icon">🤖</div>
+                    <h3>Telegram-бот для бизнеса</h3>
+                    <p>Онлайн-запись, приём заявок, каталог товаров, ответы на частые вопросы. Уведомления владельцу о каждом клиенте.</p>
+                    <div class="price">от 3 000 ₽</div>
+                </article>
+                <article class="card">
+                    <div class="icon">🌐</div>
+                    <h3>Лендинг / сайт-визитка</h3>
+                    <p>Одностраничный сайт, который хорошо смотрится на телефоне: услуги, цены, отзывы и кнопка связи.</p>
+                    <div class="price">от 4 000 ₽</div>
+                </article>
+                <article class="card">
+                    <div class="icon">⚙️</div>
+                    <h3>Автоматизация</h3>
+                    <p>Бот-помощник для себя или команды: напоминания, сбор данных, выгрузка в таблицы, рассылки.</p>
+                    <div class="price">по договорённости</div>
+                </article>
+            </div>
+        </section>
+
+        <!-- ===== Работы ===== -->
+        <section id="works" class="container">
+            <h2>Работы</h2>
+            <div class="grid">
+                <a class="card work" href="https://github.com/feelweakk/booking-bot" target="_blank">
+                    <div class="tags"><span>Python</span><span>aiogram 3</span><span>SQLite</span></div>
+                    <h3>💈 Бот онлайн-записи</h3>
+                    <p>Запись клиентов на услуги: выбор услуги, даты и времени, уведомления владельцу, админ-панель.</p>
+                    <span class="more">Смотреть код →</span>
+                </a>
+                <a class="card work" href="https://github.com/feelweakk/task-habit-bot" target="_blank">
+                    <div class="tags"><span>Python</span><span>python-telegram-bot</span></div>
+                    <h3>📋 Задачи и привычки</h3>
+                    <p>Бот-планировщик с задачами, привычками, подсчётом серии дней и статистикой.</p>
+                    <span class="more">Смотреть код →</span>
+                </a>
+                <a class="card work" href="https://github.com/feelweakk/HabitBot" target="_blank">
+                    <div class="tags"><span>No-code</span><span>Domino CRM</span><span>ИИ</span></div>
+                    <h3>🌱 HabitBot</h3>
+                    <p>Бот для формирования привычек с ИИ-советом дня, собранный на no-code платформе.</p>
+                    <span class="more">Подробнее →</span>
+                </a>
+                <a class="card work" href="https://feelweakk.github.io/ronaldo-website" target="_blank">
+                    <div class="tags"><span>HTML</span><span>CSS</span></div>
+                    <h3>⚽ Сайт о Роналду</h3>
+                    <p>Адаптивный двухстраничный сайт: CSS Grid, таймлайн, карточки.</p>
+                    <span class="more">Открыть сайт →</span>
+                </a>
+                <a class="card work" href="https://github.com/feelweakk/spam-classifier" target="_blank">
+                    <div class="tags"><span>Python</span><span>scikit-learn</span><span>ML</span></div>
+                    <h3>📩 Определение спама</h3>
+                    <p>Модель машинного обучения, которая отличает спам-SMS с точностью 96.7%.</p>
+                    <span class="more">Смотреть код →</span>
+                </a>
+            </div>
+        </section>
+
+        <!-- ===== Процесс ===== -->
+        <section id="process" class="container">
+            <h2>Как работаю</h2>
+            <ol class="steps">
+                <li><b>Обсуждаем задачу</b><span>Пишете в Telegram, разбираемся, что нужно вашему бизнесу.</span></li>
+                <li><b>Согласуем цену и срок</b><span>Фиксируем, что будет сделано и к какому дню.</span></li>
+                <li><b>Делаю и показываю</b><span>Показываю промежуточный результат и вношу правки.</span></li>
+                <li><b>Запуск и поддержка</b><span>Запускаю проект и помогаю, если что-то нужно поменять.</span></li>
+            </ol>
+        </section>
+
+        <!-- ===== Контакты ===== -->
+        <section class="container">
+            <div class="cta">
+                <h2>Есть идея для бота или сайта?</h2>
+                <p>Напишите, и я отвечу в течение дня. Первая консультация бесплатная.</p>
+                <div class="hero-actions">
+                    <a class="btn" href="https://t.me/fykkkkke" target="_blank">✈️ Telegram @fykkkkke</a>
+                    <a class="btn btn-ghost" href="mailto:lykymchik2009@gmail.com">✉️ lykymchik2009@gmail.com</a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="container">
+        © <span id="year">2026</span> fykkkke · Лука Петрушин · <a href="https://github.com/feelweakk">GitHub</a>
+    </footer>
+
+    <script>
+        document.getElementById("year").textContent = new Date().getFullYear();
+    </script>
+</body>
+</html>
