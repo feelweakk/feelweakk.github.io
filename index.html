@@ -1,12 +1,12 @@
 <!DOCTYPE html>
-<html lang="ru">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>fykkkke — Telegram-боты и сайты</title>
-    <meta name="description" content="Разработка Telegram-ботов и сайтов для бизнеса: онлайн-запись, приём заявок, лендинги. Лука Петрушин (fykkkke).">
-    <meta property="og:title" content="fykkkke — Telegram-боты и сайты">
-    <meta property="og:description" content="Боты для записи клиентов, приёма заявок и автоматизации. Лендинги и сайты-визитки.">
+    <title>fykkkke — Telegram Bots & Websites</title>
+    <meta name="description" content="Telegram bots and websites for small businesses: online booking, lead capture, landing pages. By Luka Petrushin (fykkkke).">
+    <meta property="og:title" content="fykkkke — Telegram Bots & Websites">
+    <meta property="og:description" content="Booking bots, lead capture and automation. Landing pages and business websites.">
     <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' rx='24' fill='%237c5cff'/><text x='50' y='70' font-size='60' text-anchor='middle' fill='white' font-family='Arial' font-weight='bold'>f</text></svg>">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;600;700;800&display=swap" rel="stylesheet">
@@ -17,126 +17,148 @@
         <nav class="container">
             <a class="logo" href="#">fykkkke<span>.</span></a>
             <ul class="menu">
-                <li><a href="#services">Услуги</a></li>
-                <li><a href="#works">Работы</a></li>
-                <li><a href="#process">Как работаю</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#work">Work</a></li>
+                <li><a href="#process">Process</a></li>
             </ul>
-            <a class="btn btn-small" href="https://t.me/fykkkkke" target="_blank">Написать</a>
+            <a class="btn btn-small" href="https://t.me/fykkkkke" target="_blank">Contact</a>
         </nav>
     </header>
 
     <main>
-        <!-- ===== Главный экран ===== -->
-        <section class="hero container">
-            <span class="badge">🟢 Принимаю заказы</span>
-            <h1>Telegram-боты и сайты,<br>которые <span class="grad">приводят клиентов</span></h1>
-            <p class="lead">Делаю ботов для записи и приёма заявок, а также лендинги для малого бизнеса. Быстро, понятно и под ваши задачи.</p>
-            <div class="hero-actions">
-                <a class="btn" href="https://t.me/fykkkkke" target="_blank">Обсудить проект в Telegram</a>
-                <a class="btn btn-ghost" href="#works">Посмотреть работы</a>
-            </div>
+        <!-- ===== Hero ===== -->
+        <section class="hero">
+            <div class="container hero-grid">
+                <div class="hero-text">
+                    <span class="badge">🟢 Available for new projects</span>
+                    <h1>Telegram bots and websites that <span class="grad">bring you customers</span></h1>
+                    <p class="lead">I build booking and lead-capture bots, plus fast landing pages for small businesses. Clear pricing, quick delivery, built around your needs.</p>
+                    <div class="actions">
+                        <a class="btn" href="https://t.me/fykkkkke" target="_blank">Discuss your project</a>
+                        <a class="btn btn-ghost" href="#work">See my work</a>
+                    </div>
+                </div>
 
-            <!-- Мини-демо: как выглядит бот -->
-            <div class="chat" aria-hidden="true">
-                <div class="chat-head"><div class="avatar">💈</div><div><b>Barbershop Bot</b><small>бот</small></div></div>
-                <div class="msg bot">Здравствуйте! 👋 Выберите услугу:</div>
-                <div class="chips"><span>Стрижка — 1500 ₽</span><span>Борода — 800 ₽</span></div>
-                <div class="msg user">Стрижка</div>
-                <div class="msg bot">Выберите время на пятницу:</div>
-                <div class="chips"><span>12:00</span><span>14:00</span><span>17:00</span></div>
-                <div class="msg bot">✅ Вы записаны! Ждём вас в пятницу в 14:00</div>
-            </div>
-        </section>
-
-        <!-- ===== Услуги ===== -->
-        <section id="services" class="container">
-            <h2>Услуги</h2>
-            <p class="section-lead">Цена зависит от задачи. Точную сумму назову после короткого обсуждения.</p>
-            <div class="grid">
-                <article class="card">
-                    <div class="icon">🤖</div>
-                    <h3>Telegram-бот для бизнеса</h3>
-                    <p>Онлайн-запись, приём заявок, каталог товаров, ответы на частые вопросы. Уведомления владельцу о каждом клиенте.</p>
-                    <div class="price">от 3 000 ₽</div>
-                </article>
-                <article class="card">
-                    <div class="icon">🌐</div>
-                    <h3>Лендинг / сайт-визитка</h3>
-                    <p>Одностраничный сайт, который хорошо смотрится на телефоне: услуги, цены, отзывы и кнопка связи.</p>
-                    <div class="price">от 4 000 ₽</div>
-                </article>
-                <article class="card">
-                    <div class="icon">⚙️</div>
-                    <h3>Автоматизация</h3>
-                    <p>Бот-помощник для себя или команды: напоминания, сбор данных, выгрузка в таблицы, рассылки.</p>
-                    <div class="price">по договорённости</div>
-                </article>
+                <!-- Mini demo: what a bot looks like -->
+                <div class="chat" aria-hidden="true">
+                    <div class="chat-head"><div class="avatar">💈</div><div><b>Barbershop Bot</b><small>bot</small></div></div>
+                    <div class="msg bot">Hi there! 👋 Choose a service:</div>
+                    <div class="chips"><span>Haircut — €25</span><span>Beard trim — €15</span></div>
+                    <div class="msg user">Haircut</div>
+                    <div class="msg bot">Pick a time on Friday:</div>
+                    <div class="chips"><span>12:00</span><span>14:00</span><span>17:00</span></div>
+                    <div class="msg bot">✅ You're booked! See you Friday at 14:00</div>
+                </div>
             </div>
         </section>
 
-        <!-- ===== Работы ===== -->
-        <section id="works" class="container">
-            <h2>Работы</h2>
-            <div class="grid">
-                <a class="card work" href="https://github.com/feelweakk/booking-bot" target="_blank">
-                    <div class="tags"><span>Python</span><span>aiogram 3</span><span>SQLite</span></div>
-                    <h3>💈 Бот онлайн-записи</h3>
-                    <p>Запись клиентов на услуги: выбор услуги, даты и времени, уведомления владельцу, админ-панель.</p>
-                    <span class="more">Смотреть код →</span>
-                </a>
-                <a class="card work" href="https://github.com/feelweakk/task-habit-bot" target="_blank">
-                    <div class="tags"><span>Python</span><span>python-telegram-bot</span></div>
-                    <h3>📋 Задачи и привычки</h3>
-                    <p>Бот-планировщик с задачами, привычками, подсчётом серии дней и статистикой.</p>
-                    <span class="more">Смотреть код →</span>
-                </a>
-                <a class="card work" href="https://github.com/feelweakk/HabitBot" target="_blank">
-                    <div class="tags"><span>No-code</span><span>Domino CRM</span><span>ИИ</span></div>
-                    <h3>🌱 HabitBot</h3>
-                    <p>Бот для формирования привычек с ИИ-советом дня, собранный на no-code платформе.</p>
-                    <span class="more">Подробнее →</span>
-                </a>
-                <a class="card work" href="https://feelweakk.github.io/ronaldo-website" target="_blank">
-                    <div class="tags"><span>HTML</span><span>CSS</span></div>
-                    <h3>⚽ Сайт о Роналду</h3>
-                    <p>Адаптивный двухстраничный сайт: CSS Grid, таймлайн, карточки.</p>
-                    <span class="more">Открыть сайт →</span>
-                </a>
-                <a class="card work" href="https://github.com/feelweakk/spam-classifier" target="_blank">
-                    <div class="tags"><span>Python</span><span>scikit-learn</span><span>ML</span></div>
-                    <h3>📩 Определение спама</h3>
-                    <p>Модель машинного обучения, которая отличает спам-SMS с точностью 96.7%.</p>
-                    <span class="more">Смотреть код →</span>
-                </a>
+        <!-- ===== Services ===== -->
+        <section id="services">
+            <div class="container">
+                <h2>Services</h2>
+                <p class="section-lead">Every project is different — I'll give you an exact quote after a short chat.</p>
+                <div class="grid">
+                    <article class="card">
+                        <div class="icon">🤖</div>
+                        <h3>Telegram bot for business</h3>
+                        <p>Online booking, lead capture, product catalogue, FAQ answers. You get notified about every new customer.</p>
+                        <div class="price">from €150</div>
+                    </article>
+                    <article class="card">
+                        <div class="icon">🌐</div>
+                        <h3>Landing page / business site</h3>
+                        <p>A one-page website that looks great on phones: services, prices, reviews and a clear contact button.</p>
+                        <div class="price">from €200</div>
+                    </article>
+                    <article class="card">
+                        <div class="icon">⚙️</div>
+                        <h3>Automation</h3>
+                        <p>A helper bot for you or your team: reminders, data collection, export to spreadsheets, broadcasts.</p>
+                        <div class="price">custom quote</div>
+                    </article>
+                </div>
             </div>
         </section>
 
-        <!-- ===== Процесс ===== -->
-        <section id="process" class="container">
-            <h2>Как работаю</h2>
-            <ol class="steps">
-                <li><b>Обсуждаем задачу</b><span>Пишете в Telegram, разбираемся, что нужно вашему бизнесу.</span></li>
-                <li><b>Согласуем цену и срок</b><span>Фиксируем, что будет сделано и к какому дню.</span></li>
-                <li><b>Делаю и показываю</b><span>Показываю промежуточный результат и вношу правки.</span></li>
-                <li><b>Запуск и поддержка</b><span>Запускаю проект и помогаю, если что-то нужно поменять.</span></li>
-            </ol>
+        <!-- ===== Work ===== -->
+        <section id="work">
+            <div class="container">
+                <h2>Work</h2>
+                <p class="section-lead">Open-source projects — every one has its code on GitHub.</p>
+                <div class="grid">
+                    <a class="card work" href="https://github.com/feelweakk/booking-bot" target="_blank">
+                        <div class="tags"><span>Python</span><span>aiogram 3</span><span>SQLite</span></div>
+                        <h3>💈 Booking bot</h3>
+                        <p>Customers pick a service, day and time slot. The owner gets instant notifications and an admin panel.</p>
+                        <span class="more">View code →</span>
+                    </a>
+                    <a class="card work" href="https://github.com/feelweakk/task-habit-bot" target="_blank">
+                        <div class="tags"><span>Python</span><span>python-telegram-bot</span></div>
+                        <h3>📋 Tasks & habits bot</h3>
+                        <p>A planner bot with to-dos, daily habits, streak tracking and personal stats.</p>
+                        <span class="more">View code →</span>
+                    </a>
+                    <a class="card work" href="https://github.com/feelweakk/HabitBot" target="_blank">
+                        <div class="tags"><span>No-code</span><span>Domino CRM</span><span>AI</span></div>
+                        <h3>🌱 HabitBot</h3>
+                        <p>A habit-building bot with an AI-generated tip of the day, built on a no-code platform.</p>
+                        <span class="more">Learn more →</span>
+                    </a>
+                    <a class="card work" href="https://feelweakk.github.io/ronaldo-website" target="_blank">
+                        <div class="tags"><span>HTML</span><span>CSS</span></div>
+                        <h3>⚽ Ronaldo fan site</h3>
+                        <p>A responsive two-page website with CSS Grid, a career timeline and cards.</p>
+                        <span class="more">Open site →</span>
+                    </a>
+                    <a class="card work" href="https://github.com/feelweakk/spam-classifier" target="_blank">
+                        <div class="tags"><span>Python</span><span>scikit-learn</span><span>ML</span></div>
+                        <h3>📩 Spam classifier</h3>
+                        <p>A machine-learning model that detects spam SMS with 96.7% accuracy.</p>
+                        <span class="more">View code →</span>
+                    </a>
+                    <a class="card work card-cta" href="https://t.me/fykkkkke" target="_blank">
+                        <div class="icon">✨</div>
+                        <h3>Your project here</h3>
+                        <p>Have an idea for a bot or a website? Let's build it together.</p>
+                        <span class="more">Get in touch →</span>
+                    </a>
+                </div>
+            </div>
         </section>
 
-        <!-- ===== Контакты ===== -->
-        <section class="container">
-            <div class="cta">
-                <h2>Есть идея для бота или сайта?</h2>
-                <p>Напишите, и я отвечу в течение дня. Первая консультация бесплатная.</p>
-                <div class="hero-actions">
-                    <a class="btn" href="https://t.me/fykkkkke" target="_blank">✈️ Telegram @fykkkkke</a>
-                    <a class="btn btn-ghost" href="mailto:lykymchik2009@gmail.com">✉️ lykymchik2009@gmail.com</a>
+        <!-- ===== Process ===== -->
+        <section id="process">
+            <div class="container">
+                <h2>How I work</h2>
+                <p class="section-lead">Simple and transparent — you always know what's happening.</p>
+                <ol class="steps">
+                    <li><b>We talk</b><span>You message me on Telegram and we figure out what your business needs.</span></li>
+                    <li><b>Price & deadline</b><span>We agree on the scope, the price and the delivery date.</span></li>
+                    <li><b>I build & show</b><span>You see progress along the way and request changes.</span></li>
+                    <li><b>Launch & support</b><span>I launch the project and help if anything needs tweaking.</span></li>
+                </ol>
+            </div>
+        </section>
+
+        <!-- ===== Contact ===== -->
+        <section id="contact">
+            <div class="container">
+                <div class="cta">
+                    <h2>Got an idea for a bot or a website?</h2>
+                    <p>Drop me a message — I reply within a day. The first consultation is free.</p>
+                    <div class="actions">
+                        <a class="btn" href="https://t.me/fykkkkke" target="_blank">✈️ Telegram @fykkkkke</a>
+                        <a class="btn btn-ghost" href="mailto:lykymchik2009@gmail.com">✉️ lykymchik2009@gmail.com</a>
+                    </div>
                 </div>
             </div>
         </section>
     </main>
 
-    <footer class="container">
-        © <span id="year">2026</span> fykkkke · Лука Петрушин · <a href="https://github.com/feelweakk">GitHub</a>
+    <footer>
+        <div class="container">
+            © <span id="year">2026</span> fykkkke · Luka Petrushin · <a href="https://github.com/feelweakk">GitHub</a>
+        </div>
     </footer>
 
     <script>
